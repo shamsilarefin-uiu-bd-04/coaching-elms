@@ -1296,9 +1296,9 @@ app.use((req, res, next) => {
 });
 
 // Start Express Server
-app.listen(PORT, () => {
+app.listen(PORT, '0.0.0.0', () => {
   console.log(`=======================================================`);
-  console.log(` NexusAcademyLS Portal is active on http://localhost:${PORT}`);
+  console.log(` NexusAcademyLS Portal is active on port ${PORT}`);
   console.log(` Coaching Center e-Learning & Academic System (UCAM & ELMS)`);
   console.log(`=======================================================`);
 });
