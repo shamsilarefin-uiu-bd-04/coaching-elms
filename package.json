@@ -1,0 +1,28 @@
+{
+  "name": "nexus-academy-ls",
+  "version": "1.0.0",
+  "description": "NexusAcademyLS - Comprehensive Academic & e-Learning Management System for Nexus Academy Coaching Center, powered by Nexus ELMS",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "test": "node run_tests_with_server.js"
+  },
+  "keywords": [
+    "nexus-academy",
+    "e-learning",
+    "coaching-center",
+    "nexus-elms",
+    "ucam",
+    "elms"
+  ],
+  "author": "Nexus Academy",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "multer": "^1.4.5-lts.1"
+  }
+}
